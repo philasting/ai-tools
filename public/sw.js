@@ -1,7 +1,13 @@
 /// <reference lib="webworker" />
 
+const BASE_PATH = "/my-toolbox";
 const CACHE_NAME = "toolbox-v1";
-const STATIC_ASSETS = ["/", "/manifest.json", "/robots.txt", "/sitemap.xml"];
+const STATIC_ASSETS = [
+  `${BASE_PATH}/`,
+  `${BASE_PATH}/manifest.json`,
+  `${BASE_PATH}/robots.txt`,
+  `${BASE_PATH}/sitemap.xml`,
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -49,7 +55,7 @@ self.addEventListener("fetch", (event) => {
           if (cached) return cached;
           // For navigation requests, return the cached homepage
           if (request.mode === "navigate") {
-            return caches.match("/");
+            return caches.match(`${BASE_PATH}/`);
           }
           return new Response("Offline", { status: 503 });
         });

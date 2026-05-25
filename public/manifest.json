@@ -2,20 +2,21 @@
   "name": "ToolBox 在线工具箱",
   "short_name": "ToolBox",
   "description": "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等几十种实用工具",
-  "start_url": "/",
+  "start_url": "/my-toolbox/",
+  "scope": "/my-toolbox/",
   "display": "standalone",
   "background_color": "#0a0a0a",
   "theme_color": "#2563eb",
   "orientation": "any",
   "icons": [
     {
-      "src": "/icons/icon-192.svg",
+      "src": "/my-toolbox/icons/icon-192.svg",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-192.svg",
+      "src": "/my-toolbox/icons/icon-192.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"

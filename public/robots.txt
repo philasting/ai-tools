@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://my-toolbox.app/sitemap.xml
+Sitemap: https://philasting.github.io/my-toolbox/sitemap.xml
