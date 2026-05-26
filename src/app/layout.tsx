@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "ToolBox" }],
   creator: "ToolBox",
-  metadataBase: new URL("https://philasting.github.io/my-toolbox"),
+  metadataBase: new URL("https://my-toolbox.vercel.app"),
   openGraph: {
     type: "website",
     locale: "zh_CN",
@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     description:
       "免费在线工具箱，42种实用工具，纯前端运行，数据不离开浏览器",
   },
-  manifest: "/my-toolbox/manifest.json",
+  manifest: "/manifest.json",
   icons: {
-    icon: "/my-toolbox/icons/icon-192.svg",
-    apple: "/my-toolbox/icons/icon-192.svg",
+    icon: "/icons/icon-192.svg",
+    apple: "/icons/icon-192.svg",
   },
 };
 
@@ -60,7 +60,7 @@ const jsonLd = {
   "@type": "WebApplication",
   name: "ToolBox 在线工具箱",
   description: "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具",
-  url: "https://philasting.github.io/my-toolbox",
+  url: "https://my-toolbox.vercel.app",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
   offers: {
@@ -87,7 +87,7 @@ const jsonLd = {
 const swScript = `
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/my-toolbox/sw.js').catch(function() {});
+    navigator.serviceWorker.register('/sw.js').catch(function() {});
   });
 }
 `;

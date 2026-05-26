@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://philasting.github.io/my-toolbox/sitemap.xml
+Sitemap: https://my-toolbox.vercel.app/sitemap.xml
