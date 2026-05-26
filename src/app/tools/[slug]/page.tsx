@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: ToolPageProps): Promise<Metad
     description: tool.description,
     keywords: tool.tags,
     openGraph: {
-      title: `${tool.name} - ToolBox 在线工具箱`,
+      title: `${tool.name} - AI工具`,
       description: tool.description,
       type: "website",
     },

@@ -20,30 +20,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ToolBox - 在线工具箱",
-    template: "%s - ToolBox 在线工具箱",
+    default: "AI工具 - 在线工具箱",
+    template: "%s - AI工具",
   },
   description:
     "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具，纯前端运行，无需登录",
   keywords: [
-    "在线工具", "工具箱", "JSON格式化", "Base64", "URL编码", "时间戳",
+    "在线工具", "AI工具", "工具箱", "JSON格式化", "Base64", "URL编码", "时间戳",
     "正则表达式", "哈希计算", "密码生成", "图片压缩", "PDF合并", "二维码",
     "Markdown", "文本加密", "RSA密钥", "单位换算", "人民币大写",
   ],
-  authors: [{ name: "ToolBox" }],
-  creator: "ToolBox",
+  authors: [{ name: "AI工具" }],
+  creator: "AI工具",
   metadataBase: new URL("https://my-toolbox.vercel.app"),
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    siteName: "ToolBox 在线工具箱",
-    title: "ToolBox - 在线工具箱",
+    siteName: "AI工具",
+    title: "AI工具 - 在线工具箱",
     description:
       "免费在线工具箱，42种实用工具，纯前端运行，数据不离开浏览器",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ToolBox - 在线工具箱",
+    title: "AI工具 - 在线工具箱",
     description:
       "免费在线工具箱，42种实用工具，纯前端运行，数据不离开浏览器",
   },
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  name: "ToolBox 在线工具箱",
+  name: "AI工具",
   description: "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具",
   url: "https://my-toolbox.vercel.app",
   applicationCategory: "UtilitiesApplication",
