@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "AI工具" }],
   creator: "AI工具",
-  metadataBase: new URL("https://my-toolbox.vercel.app"),
+  metadataBase: new URL("https://ai-tools.vercel.app"),
   openGraph: {
     type: "website",
     locale: "zh_CN",
@@ -60,7 +60,7 @@ const jsonLd = {
   "@type": "WebApplication",
   name: "AI工具",
   description: "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具",
-  url: "https://my-toolbox.vercel.app",
+  url: "https://ai-tools.vercel.app",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
   offers: {
