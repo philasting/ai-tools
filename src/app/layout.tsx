@@ -20,32 +20,32 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "NexTool - 在线工具箱",
-    template: "%s - NexTool",
+    default: "GotAI - 即得",
+    template: "%s - GotAI",
   },
   description:
-    "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具，纯前端运行，无需登录",
+    "GotAI 即得 — 免费在线工具，包含开发工具、文本处理、图片工具、编码加密等42种实用工具，纯前端运行，无需登录",
   keywords: [
-    "在线工具", "NexTool", "工具箱", "JSON格式化", "Base64", "URL编码", "时间戳",
+    "在线工具", "GotAI", "即得", "JSON格式化", "Base64", "URL编码", "时间戳",
     "正则表达式", "哈希计算", "密码生成", "图片压缩", "PDF合并", "二维码",
     "Markdown", "文本加密", "RSA密钥", "单位换算", "人民币大写",
   ],
-  authors: [{ name: "NexTool" }],
-  creator: "NexTool",
-  metadataBase: new URL("https://nextool.vercel.app"),
+  authors: [{ name: "GotAI" }],
+  creator: "GotAI",
+  metadataBase: new URL("https://gotai.vercel.app"),
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    siteName: "NexTool",
-    title: "NexTool - 在线工具箱",
+    siteName: "GotAI",
+    title: "GotAI - 即得",
     description:
-      "免费在线工具箱，42种实用工具，纯前端运行，数据不离开浏览器",
+      "GotAI 即得 — 免费在线工具，42种实用工具，纯前端运行，数据不离开浏览器",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NexTool - 在线工具箱",
+    title: "GotAI - 即得",
     description:
-      "免费在线工具箱，42种实用工具，纯前端运行，数据不离开浏览器",
+      "GotAI 即得 — 免费在线工具，42种实用工具，纯前端运行，数据不离开浏览器",
   },
   manifest: "/manifest.json",
   icons: {
@@ -58,9 +58,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  name: "NexTool",
-  description: "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具",
-  url: "https://nextool.vercel.app",
+  name: "GotAI",
+  description: "GotAI 即得 — 免费在线工具，包含开发工具、文本处理、图片工具、编码加密等42种实用工具",
+  url: "https://gotai.vercel.app",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
   offers: {

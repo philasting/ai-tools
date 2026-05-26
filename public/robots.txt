@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nextool.vercel.app/sitemap.xml
+Sitemap: https://gotai.vercel.app/sitemap.xml
