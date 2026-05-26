@@ -20,30 +20,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "AI工具 - 在线工具箱",
-    template: "%s - AI工具",
+    default: "NexTool - 在线工具箱",
+    template: "%s - NexTool",
   },
   description:
     "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具，纯前端运行，无需登录",
   keywords: [
-    "在线工具", "AI工具", "工具箱", "JSON格式化", "Base64", "URL编码", "时间戳",
+    "在线工具", "NexTool", "工具箱", "JSON格式化", "Base64", "URL编码", "时间戳",
     "正则表达式", "哈希计算", "密码生成", "图片压缩", "PDF合并", "二维码",
     "Markdown", "文本加密", "RSA密钥", "单位换算", "人民币大写",
   ],
-  authors: [{ name: "AI工具" }],
-  creator: "AI工具",
-  metadataBase: new URL("https://ai-tools.vercel.app"),
+  authors: [{ name: "NexTool" }],
+  creator: "NexTool",
+  metadataBase: new URL("https://nextool.vercel.app"),
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    siteName: "AI工具",
-    title: "AI工具 - 在线工具箱",
+    siteName: "NexTool",
+    title: "NexTool - 在线工具箱",
     description:
       "免费在线工具箱，42种实用工具，纯前端运行，数据不离开浏览器",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI工具 - 在线工具箱",
+    title: "NexTool - 在线工具箱",
     description:
       "免费在线工具箱，42种实用工具，纯前端运行，数据不离开浏览器",
   },
@@ -58,9 +58,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  name: "AI工具",
+  name: "NexTool",
   description: "免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具",
-  url: "https://ai-tools.vercel.app",
+  url: "https://nextool.vercel.app",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
   offers: {

@@ -1,6 +1,6 @@
 /// <reference lib="webworker" />
 
-const CACHE_NAME = "ai-tools-v1";
+const CACHE_NAME = "nextool-v1";
 const STATIC_ASSETS = ["/", "/manifest.json", "/robots.txt", "/sitemap.xml"];
 
 self.addEventListener("install", (event) => {

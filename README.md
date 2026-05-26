@@ -1,4 +1,4 @@
-# AI工具 - 在线工具箱
+# NexTool - 在线工具箱
 
 免费在线工具箱，包含开发工具、文本处理、图片工具、编码加密等42种实用工具，纯前端运行，数据不离开浏览器。
 
@@ -80,7 +80,7 @@ pnpm build
 ## 项目结构
 
 ```
-ai-tools/
+nextool/
 ├── public/              # 静态资源
 │   ├── manifest.json    # PWA 清单
 │   ├── sw.js            # Service Worker
